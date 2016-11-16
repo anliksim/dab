@@ -1,8 +1,8 @@
 # DAB1: Bewertetes Praktikum 2
 
-Gesamtpunkteanzahl: 7
-Aufgabe 1: 3
-Aufgabe 2: 4
+- Gesamtpunkteanzahl -> 7
+- Aufgabe 1 -> 3
+- Aufgabe 2 -> 4
 
 Bei allen Aufgaben unterstreichen Sie den/die Primärschüssel und markieren Sie die Schlüssel durch doppeltes Einkreisen. Gibt es zwei Attribute, die einen Schlüssel darstellen, kreisen Sie beide Attribute doppelt ein. 
 
@@ -10,42 +10,17 @@ Bei allen Aufgaben unterstreichen Sie den/die Primärschüssel und markieren Sie
 Aufgabe 1
 ----------
 
-Entwerfen Sie ein korrektes ER-Diagramm für eine online Videothek. Die Videothek bietet 
-Filme für die Kundschaft an, die man kaufen oder ausleihen kann. Die Filme haben einen 
-Titel und ein Erscheinungsjahr. 
+Entwerfen Sie ein korrektes ER-Diagramm für eine online Videothek. Die Videothek bietet Filme für die Kundschaft an, die man kaufen oder ausleihen kann. Die Filme haben einen Titel und ein Erscheinungsjahr. 
 
-Für jeden Film speichern wir zusätzliche Informationen über Schauspieler und Regisseure 
-(Name, Vorname, Jahrgang, Nationalität). Wenn ein Schauspieler bei Filmen auch die Regie 
-leitet (oder umgekehrt), dann möchten wir die Informationen über diese Person nur einmal 
+Für jeden Film speichern wir zusätzliche Informationen über Schauspieler und Regisseure (Name, Vorname, Jahrgang, Nationalität). Wenn ein Schauspieler bei Filmen auch die Regie leitet (oder umgekehrt), dann möchten wir die Informationen über diese Person nur einmal speichern. Ein Schauspieler kann in einem Film in mehreren Rollen erscheinen. Für jede Rolle müssen wir speichern, ob diese Rolle eine Hauptrolle ist. Es kann auch Filme geben, die mehrere Regisseure haben. 
 
-speichern. Ein Schauspieler kann in einem Film in mehreren Rollen erscheinen. Für jede 
+Jeder Film gehört zu einem Genre (z. B. Drama, Komödie usw.). Wir möchten eine vordefinierte Liste von den möglichen Genres verwalten, und speichern eine Beschreibung des Genres und eine Genre ID. 
 
-Rolle müssen wir speichern, ob diese Rolle eine Hauptrolle ist. Es kann auch Filme geben, die 
+Jeder Film kann in mehreren Audio-und Videoformaten zur Verfügung stehen. Ein Audioformat ist eine Komposition von einer Sprache (z. B. Deutsch, English) und einem Audiostandard (z. B. Dolby Digital 5.1). Wir verwalten eine Liste von Sprachen als separate Entitätstypen. Videoformate können z.B. SD oder HD sein. Diese Videoformate werden ebenfalls als separate Entitätstypen gespeichert. 
 
-mehrere Regisseure haben. 
+Filme werden von unseren Kunden angeschaut. Jeder Kunde hat eine KundenID und ein Passwort, das wir für die Identifizierung benutzen. Jeder Kunde hat eine oder mehrere Kreditkarten, die wir abspeichern. Wir speichern keine Kreditkarteninformationen ohne dazugehörende KundenID. 
 
-Jeder Film gehört zu einem Genre (z. B. Drama, Komödie usw.). Wir möchten eine 
-vordefinierte Liste von den möglichen Genres verwalten, und speichern eine Beschreibung 
-des Genres und eine Genre ID. 
-
-Jeder Film kann in mehreren Audio-und Videoformaten zur Verfügung stehen. Ein 
-Audioformat ist eine Komposition von einer Sprache (z. B. Deutsch, English) und einem 
-Audiostandard (z. B. Dolby Digital 5.1). Wir verwalten eine Liste von Sprachen als separate 
-Entitätstypen. Videoformate können z.B. SD oder HD sein. Diese Videoformate werden 
-ebenfalls als separate Entitätstypen gespeichert. 
-
-Filme werden von unseren Kunden angeschaut. Jeder Kunde hat eine KundenID und ein 
-Passwort, das wir für die Identifizierung benutzen. Jeder Kunde hat eine oder mehrere 
-Kreditkarten, die wir abspeichern. Wir speichern keine Kreditkarteninformationen ohne 
-dazugehörende KundenID. 
-
-Ein Kunde kann einen Film für eine Zeitperiode leihen oder kaufen. Beide 
-Aktionen sollen ähnlich behandelt werden und es werden dieselben Attribute gespeichert (Abund 
-Bis-Datum und eine TransaktionsID. Beim Kauf soll das Bis-Datum auf „unendlich“ 
-
-(z.B. 31-12-9999) gesetzt werden. 
-Für jeden Film, der ausgeliehen oder gekauft worden ist, soll eine Rechnung an den Kunden 
-geschickt werden (inkl. Preis und Datum). 
+Ein Kunde kann einen Film für eine Zeitperiode leihen oder kaufen. Beide Aktionen sollen ähnlich behandelt werden und es werden dieselben Attribute gespeichert (Abund Bis-Datum und eine TransaktionsID. Beim Kauf soll das Bis-Datum auf „unendlich“ (z.B. 31-12-9999) gesetzt werden. Für jeden Film, der ausgeliehen oder gekauft worden ist, soll eine Rechnung an den Kunden geschickt werden (inkl. Preis und Datum). 
 
 
 Aufgabe 2
