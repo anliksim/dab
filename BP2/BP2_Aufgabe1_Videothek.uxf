@@ -1,24 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.2">
-  <zoom_level>5</zoom_level>
-  <element>
-    <id>UMLUseCase</id>
-    <coordinates>
-      <x>350</x>
-      <y>160</y>
-      <w>60</w>
-      <h>20</h>
-    </coordinates>
-    <panel_attributes>Genre</panel_attributes>
-    <additional_attributes/>
-  </element>
+  <zoom_level>7</zoom_level>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>345</x>
-      <y>285</y>
-      <w>50</w>
-      <h>20</h>
+      <x>490</x>
+      <y>329</y>
+      <w>70</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>Film
 valign=center</panel_attributes>
@@ -27,10 +16,10 @@ valign=center</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>115</x>
-      <y>490</y>
-      <w>55</w>
-      <h>20</h>
+      <x>168</x>
+      <y>616</y>
+      <w>77</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>Kunde
 valign=center</panel_attributes>
@@ -39,10 +28,10 @@ valign=center</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>285</x>
-      <y>170</y>
-      <w>65</w>
-      <h>30</h>
+      <x>581</x>
+      <y>189</y>
+      <w>91</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>Erscheinungs-
 jahr</panel_attributes>
@@ -51,10 +40,10 @@ jahr</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>205</x>
-      <y>415</y>
-      <w>75</w>
-      <h>30</h>
+      <x>315</x>
+      <y>581</y>
+      <w>105</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>customelement=
 drawText("kaufen/leihen",75,35,center)</panel_attributes>
@@ -63,10 +52,10 @@ drawText("kaufen/leihen",75,35,center)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>130</x>
-      <y>110</y>
-      <w>210</w>
-      <h>20</h>
+      <x>189</x>
+      <y>84</y>
+      <w>294</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>lt=-
 Aufgabe1: Videothek</panel_attributes>
@@ -75,10 +64,10 @@ Aufgabe1: Videothek</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>185</x>
-      <y>165</y>
-      <w>60</w>
-      <h>20</h>
+      <x>119</x>
+      <y>252</y>
+      <w>84</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>Name</panel_attributes>
     <additional_attributes/>
@@ -86,10 +75,10 @@ Aufgabe1: Videothek</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>185</x>
-      <y>205</y>
-      <w>60</w>
-      <h>20</h>
+      <x>161</x>
+      <y>210</y>
+      <w>84</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>Vorname</panel_attributes>
     <additional_attributes/>
@@ -97,10 +86,10 @@ Aufgabe1: Videothek</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>125</x>
-      <y>185</y>
-      <w>60</w>
-      <h>20</h>
+      <x>35</x>
+      <y>238</y>
+      <w>84</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>Jahrgang</panel_attributes>
     <additional_attributes/>
@@ -108,10 +97,10 @@ Aufgabe1: Videothek</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>130</x>
-      <y>145</y>
-      <w>60</w>
-      <h>20</h>
+      <x>35</x>
+      <y>280</y>
+      <w>84</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>Nationalität</panel_attributes>
     <additional_attributes/>
@@ -119,22 +108,22 @@ Aufgabe1: Videothek</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>150</x>
-      <y>240</y>
-      <w>50</w>
-      <h>20</h>
+      <x>203</x>
+      <y>329</y>
+      <w>70</w>
+      <h>28</h>
     </coordinates>
-    <panel_attributes>Mitwirkende
+    <panel_attributes>Person
 valign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>355</x>
-      <y>185</y>
-      <w>60</w>
-      <h>20</h>
+      <x>511</x>
+      <y>224</y>
+      <w>84</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>Titel</panel_attributes>
     <additional_attributes/>
@@ -142,10 +131,10 @@ valign=center</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>25</x>
-      <y>270</y>
-      <w>50</w>
-      <h>20</h>
+      <x>350</x>
+      <y>203</y>
+      <w>70</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>Rolle
 valign=center</panel_attributes>
@@ -154,10 +143,10 @@ valign=center</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>485</x>
-      <y>330</y>
-      <w>50</w>
-      <h>20</h>
+      <x>686</x>
+      <y>392</y>
+      <w>70</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>Genre
 valign=center</panel_attributes>
@@ -166,10 +155,10 @@ valign=center</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>455</x>
-      <y>520</y>
-      <w>50</w>
-      <h>20</h>
+      <x>644</x>
+      <y>658</y>
+      <w>70</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>Sprache
 valign=center</panel_attributes>
@@ -178,10 +167,10 @@ valign=center</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>425</x>
-      <y>615</y>
-      <w>50</w>
-      <h>20</h>
+      <x>602</x>
+      <y>791</y>
+      <w>70</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>Audioformat
 valign=center</panel_attributes>
@@ -190,10 +179,10 @@ valign=center</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>345</x>
-      <y>615</y>
-      <w>50</w>
-      <h>20</h>
+      <x>490</x>
+      <y>791</y>
+      <w>70</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>Videoformat
 valign=center</panel_attributes>
@@ -202,10 +191,10 @@ valign=center</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>385</x>
-      <y>580</y>
-      <w>50</w>
-      <h>20</h>
+      <x>546</x>
+      <y>742</y>
+      <w>70</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>Format
 valign=center</panel_attributes>
@@ -214,10 +203,10 @@ valign=center</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>450</x>
-      <y>655</y>
-      <w>60</w>
-      <h>20</h>
+      <x>637</x>
+      <y>847</y>
+      <w>84</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>Audiostandard</panel_attributes>
     <additional_attributes/>
@@ -225,10 +214,10 @@ valign=center</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>320</x>
-      <y>655</y>
-      <w>60</w>
-      <h>20</h>
+      <x>455</x>
+      <y>847</y>
+      <w>84</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>Videostandard</panel_attributes>
     <additional_attributes/>
@@ -236,10 +225,10 @@ valign=center</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>85</x>
-      <y>520</y>
-      <w>60</w>
-      <h>20</h>
+      <x>126</x>
+      <y>658</y>
+      <w>84</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>KundenID</panel_attributes>
     <additional_attributes/>
@@ -247,10 +236,10 @@ valign=center</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>110</x>
-      <y>550</y>
-      <w>60</w>
-      <h>20</h>
+      <x>161</x>
+      <y>700</y>
+      <w>84</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>Passwort</panel_attributes>
     <additional_attributes/>
@@ -258,10 +247,10 @@ valign=center</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>65</x>
-      <y>635</y>
-      <w>55</w>
-      <h>20</h>
+      <x>98</x>
+      <y>819</y>
+      <w>77</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>Kreditkarte
 valign=center</panel_attributes>
@@ -270,10 +259,10 @@ valign=center</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>85</x>
-      <y>665</y>
-      <w>60</w>
-      <h>20</h>
+      <x>126</x>
+      <y>861</y>
+      <w>84</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>Verfallsdatum</panel_attributes>
     <additional_attributes/>
@@ -281,10 +270,10 @@ valign=center</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>20</x>
-      <y>665</y>
-      <w>60</w>
-      <h>20</h>
+      <x>35</x>
+      <y>861</y>
+      <w>84</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>Kartennummer</panel_attributes>
     <additional_attributes/>
@@ -292,10 +281,10 @@ valign=center</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>0</x>
-      <y>645</y>
-      <w>60</w>
-      <h>20</h>
+      <x>7</x>
+      <y>833</y>
+      <w>84</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>KundenID</panel_attributes>
     <additional_attributes/>
@@ -303,10 +292,10 @@ valign=center</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>165</x>
-      <y>390</y>
-      <w>60</w>
-      <h>20</h>
+      <x>252</x>
+      <y>539</y>
+      <w>84</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>Von</panel_attributes>
     <additional_attributes/>
@@ -314,10 +303,10 @@ valign=center</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>225</x>
-      <y>385</y>
-      <w>60</w>
-      <h>20</h>
+      <x>329</x>
+      <y>518</y>
+      <w>84</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>Bis</panel_attributes>
     <additional_attributes/>
@@ -325,10 +314,10 @@ valign=center</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>270</x>
-      <y>400</y>
-      <w>60</w>
-      <h>20</h>
+      <x>399</x>
+      <y>546</y>
+      <w>84</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>TransaktionsID</panel_attributes>
     <additional_attributes/>
@@ -336,10 +325,10 @@ valign=center</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>65</x>
-      <y>400</y>
-      <w>55</w>
-      <h>20</h>
+      <x>98</x>
+      <y>490</y>
+      <w>77</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>Rechung
 valign=center</panel_attributes>
@@ -348,10 +337,10 @@ valign=center</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>10</x>
-      <y>360</y>
-      <w>60</w>
-      <h>20</h>
+      <x>7</x>
+      <y>476</y>
+      <w>84</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>RechnungsNr</panel_attributes>
     <additional_attributes/>
@@ -359,10 +348,10 @@ valign=center</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>0</x>
-      <y>425</y>
-      <w>60</w>
-      <h>20</h>
+      <x>21</x>
+      <y>553</y>
+      <w>84</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>Preis</panel_attributes>
     <additional_attributes/>
@@ -371,9 +360,9 @@ valign=center</panel_attributes>
     <id>UMLUseCase</id>
     <coordinates>
       <x>0</x>
-      <y>390</y>
-      <w>60</w>
-      <h>20</h>
+      <y>518</y>
+      <w>84</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>Datum</panel_attributes>
     <additional_attributes/>
@@ -381,10 +370,10 @@ valign=center</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>235</x>
-      <y>245</y>
-      <w>75</w>
-      <h>30</h>
+      <x>329</x>
+      <y>322</y>
+      <w>105</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>customelement=
 drawText("arbeitet in",75,35,center)</panel_attributes>
@@ -393,10 +382,10 @@ drawText("arbeitet in",75,35,center)</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>65</x>
-      <y>240</y>
-      <w>75</w>
-      <h>30</h>
+      <x>84</x>
+      <y>371</y>
+      <w>105</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>customelement=
 drawText("hat",75,35,center)</panel_attributes>
@@ -405,10 +394,10 @@ drawText("hat",75,35,center)</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>440</x>
-      <y>280</y>
-      <w>75</w>
-      <h>30</h>
+      <x>623</x>
+      <y>322</y>
+      <w>105</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>customelement=
 drawText("ist",75,35,center)</panel_attributes>
@@ -417,10 +406,10 @@ drawText("ist",75,35,center)</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>520</x>
-      <y>365</y>
-      <w>60</w>
-      <h>20</h>
+      <x>735</x>
+      <y>441</y>
+      <w>84</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>
 _GenreID_
@@ -430,10 +419,10 @@ _GenreID_
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>460</x>
-      <y>370</y>
-      <w>60</w>
-      <h>20</h>
+      <x>651</x>
+      <y>448</y>
+      <w>84</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>Bezeichnung</panel_attributes>
     <additional_attributes/>
@@ -441,10 +430,10 @@ _GenreID_
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>485</x>
-      <y>345</y>
-      <w>25</w>
-      <h>35</h>
+      <x>686</x>
+      <y>413</y>
+      <w>35</w>
+      <h>49</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>30.0;10.0;10.0;50.0</additional_attributes>
@@ -452,10 +441,10 @@ _GenreID_
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>515</x>
-      <y>345</y>
-      <w>40</w>
-      <h>30</h>
+      <x>728</x>
+      <y>413</y>
+      <w>56</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>10.0;10.0;60.0;40.0</additional_attributes>
@@ -463,10 +452,10 @@ _GenreID_
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>390</x>
-      <y>290</y>
-      <w>60</w>
-      <h>20</h>
+      <x>553</x>
+      <y>336</y>
+      <w>84</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 m1=1</panel_attributes>
@@ -475,10 +464,10 @@ m1=1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>510</x>
-      <y>290</y>
-      <w>15</w>
-      <h>50</h>
+      <x>721</x>
+      <y>336</y>
+      <w>21</w>
+      <h>70</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 m1=1</panel_attributes>
@@ -487,10 +476,10 @@ m1=1</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>520</x>
-      <y>235</y>
-      <w>60</w>
-      <h>20</h>
+      <x>735</x>
+      <y>259</y>
+      <w>84</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>
 GenreID
@@ -500,10 +489,10 @@ GenreID
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>475</x>
-      <y>250</y>
-      <w>75</w>
-      <h>40</h>
+      <x>672</x>
+      <y>280</y>
+      <w>105</w>
+      <h>56</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>130.0;10.0;10.0;60.0</additional_attributes>
@@ -511,10 +500,10 @@ GenreID
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>335</x>
-      <y>215</y>
-      <w>60</w>
-      <h>20</h>
+      <x>455</x>
+      <y>252</y>
+      <w>84</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>_FilmID_</panel_attributes>
     <additional_attributes/>
@@ -522,21 +511,21 @@ GenreID
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>350</x>
-      <y>230</y>
-      <w>40</w>
-      <h>65</h>
+      <x>490</x>
+      <y>273</y>
+      <w>35</w>
+      <h>70</h>
     </coordinates>
     <panel_attributes/>
-    <additional_attributes>10.0;10.0;60.0;110.0</additional_attributes>
+    <additional_attributes>10.0;10.0;30.0;80.0</additional_attributes>
   </element>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>455</x>
-      <y>230</y>
-      <w>60</w>
-      <h>20</h>
+      <x>644</x>
+      <y>252</y>
+      <w>84</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>FilmID</panel_attributes>
     <additional_attributes/>
@@ -544,10 +533,10 @@ GenreID
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>475</x>
-      <y>245</y>
-      <w>20</w>
-      <h>45</h>
+      <x>672</x>
+      <y>273</y>
+      <w>28</w>
+      <h>63</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>20.0;10.0;10.0;70.0</additional_attributes>
@@ -555,13 +544,281 @@ GenreID
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>450</x>
-      <y>220</y>
-      <w>135</w>
-      <h>45</h>
+      <x>637</x>
+      <y>238</y>
+      <w>189</w>
+      <h>63</h>
     </coordinates>
     <panel_attributes>
 </panel_attributes>
     <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>518</x>
+      <y>245</y>
+      <w>49</w>
+      <h>98</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>50.0;10.0;10.0;120.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>532</x>
+      <y>224</y>
+      <w>98</w>
+      <h>119</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>120.0;10.0;10.0;150.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>266</x>
+      <y>336</y>
+      <w>77</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=m</panel_attributes>
+    <additional_attributes>10.0;10.0;90.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>427</x>
+      <y>336</y>
+      <w>77</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=m</panel_attributes>
+    <additional_attributes>90.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>217</x>
+      <y>238</y>
+      <w>84</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>_PersonID_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>238</x>
+      <y>259</y>
+      <w>28</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>20.0;10.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>98</x>
+      <y>294</y>
+      <w>119</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;15.0;150.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>196</x>
+      <y>231</y>
+      <w>49</w>
+      <h>112</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;50.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>84</x>
+      <y>252</y>
+      <w>140</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;15.0;180.0;110.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>161</x>
+      <y>266</y>
+      <w>77</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;15.0;90.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>399</x>
+      <y>399</y>
+      <w>84</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>FilmID</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>294</x>
+      <y>399</y>
+      <w>84</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>PersonID</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>336</x>
+      <y>357</y>
+      <w>56</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>60.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>378</x>
+      <y>357</y>
+      <w>70</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;80.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>287</x>
+      <y>378</y>
+      <w>203</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>266</x>
+      <y>154</y>
+      <w>84</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>Bezeichnung</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>350</x>
+      <y>133</y>
+      <w>84</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>Hauptrolle</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>427</x>
+      <y>154</y>
+      <w>84</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>_RolleID_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>315</x>
+      <y>175</y>
+      <w>63</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;70.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>378</x>
+      <y>154</y>
+      <w>28</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>20.0;10.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>399</x>
+      <y>175</y>
+      <w>70</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>80.0;10.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>378</x>
+      <y>224</y>
+      <w>28</w>
+      <h>112</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=m</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>343</x>
+      <y>427</y>
+      <w>84</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>RolleID</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>378</x>
+      <y>357</y>
+      <w>21</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;10.0;100.0</additional_attributes>
   </element>
 </diagram>
