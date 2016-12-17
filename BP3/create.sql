@@ -28,20 +28,23 @@ CREATE TABLE Sammelstelle (
   sId   INT         NOT NULL,
   sOrt  VARCHAR(20) NOT NULL,
   sLand VARCHAR(20) NOT NULL,
-  CONSTRAINT pk_s_sId PRIMARY KEY (sid)
+  CONSTRAINT pk_s_sId PRIMARY KEY (sid),
+  CONSTRAINT uq_s_loc UNIQUE (sOrt, sLand)
 );
 
 CREATE TABLE Fabrik (
   fId   INT         NOT NULL,
   fOrt  VARCHAR(20) NOT NULL,
   fLand VARCHAR(20) NOT NULL,
-  CONSTRAINT pk_f_fId PRIMARY KEY (fid)
+  CONSTRAINT pk_f_fId PRIMARY KEY (fid),
+  CONSTRAINT uq_f_loc UNIQUE (fOrt, fLand)
 );
 
 CREATE TABLE KaffeSorte (
   kId   INT         NOT NULL,
   kName VARCHAR(20) NOT NULL,
-  CONSTRAINT pk_ks_kId PRIMARY KEY (kId)
+  CONSTRAINT pk_ks_kId PRIMARY KEY (kId),
+  CONSTRAINT uq_ks_name UNIQUE (kName)
 );
 
 CREATE TABLE AbgabeMoeglich (
