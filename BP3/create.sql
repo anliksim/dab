@@ -81,7 +81,7 @@ CREATE TABLE Lieferung (
   kId    INT NOT NULL,
   lId    INT NOT NULL,
   lAnzKg INT NOT NULL,
-  lDatum INT NOT NULL,
+  lDatum DATE NOT NULL,
   CONSTRAINT fk_l_sfkId FOREIGN KEY (sId, fId, kId) REFERENCES LieferungMoeglich (sId, fId, kId),
   CONSTRAINT uq_l_sfklId UNIQUE (sId, fId, kId, lId)
 );
