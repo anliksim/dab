@@ -1,6 +1,4 @@
-/**
- * Liste aller Kaffesorten gem. Aufgabe 2
- */
+/* Liste aller Kaffesorten gem. Aufgabe 2 */
 SELECT
   K.KID,
   K.KNAME
